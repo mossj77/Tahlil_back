@@ -10,10 +10,6 @@ from rest_framework_simplejwt.views import (
 
 
 urlpatterns = [
-    #path('', views.index , name= 'index'),
-    #path('test/', views.test),
-    #path('signup/', views.signup.as_view()),
-    #path('search\(?p<test>\w{0,50})',views.funcname.as_view())
     path('signup/', views.signup.as_view(), name='signup'),
     path('createproject/', views.createproject.as_view(), name='Create project'),
     path('projectlist/<category>/', views.projectlisthandler.as_view(), name='Project list'),
