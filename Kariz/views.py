@@ -58,8 +58,14 @@ class dashboardhandler(generics.RetrieveAPIView):
 
 
 class teachingpermission(generics.RetrieveAPIView):
-    queryset = FreeLancer.objects.all()   #make a freelancer model that is : freelancer = USER+ {int score , bool teachingpremission}
+    lookup_url_kwarg = 'FreeLancerid'
     serializer_class = teachingpermissionserializer
+    def get_queryset(self):
+        _FreeLancerid = self.kwargs.get(self.lookup_url_kwarg)
+        aFreeLancer = FreeLancer.objects.filter(FreeLancerid=_FreeLancerid)
+        return aFreeLancer
+
+    #make a freelancer model that is : freelancer = USER+ {int score , bool teachingpremission}
 
 
 
