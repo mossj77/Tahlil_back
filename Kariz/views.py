@@ -24,6 +24,11 @@ class signup(generics.CreateAPIView):
     serializer_class = userserialize
 
 
+class teachinginfo(generics.CreateAPIView):
+    queryset = teachingform.objects
+    serializer_class = teachingformserializer
+
+
 
 class projectlisthandler(generics.ListAPIView):
     lookup_url_kwarg = 'category'
