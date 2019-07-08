@@ -69,4 +69,5 @@ class teachingpermission(generics.RetrieveAPIView):
 
 
 
+class requestforproject(generics.RetrieveAPIView):
 
