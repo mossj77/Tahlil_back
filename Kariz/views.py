@@ -65,7 +65,7 @@ class teachingpermission(generics.RetrieveAPIView):
         aFreeLancer = FreeLancer.objects.filter(FreeLancerid=_FreeLancerid)
         return aFreeLancer
 
-    #make a freelancer model that is : freelancer = USER+ {int score , etc}
+    #make a FreeLancer model that is : freelancer = USER+ {int score , etc}
 
 
 

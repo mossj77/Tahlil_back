@@ -18,6 +18,6 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('dashboard/', views.dashboardhandler.as_view()),
     path('search/<name>/', views.searchhandler.as_view(), name='search'),
-    path('teachingpermission/',views.teachingpermission.as_view(), name='teachingpermission' ),
-    path('requestforproject/',views.requestforproject.as_view(), name='requestforproject' ),
+    path('teachingpermission/',views.teachingpermission.as_view(), name='teachingpermission'),
+    path('requestforproject/',views.requestforproject.as_view(), name='requestforproject'),
 ]
