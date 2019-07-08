@@ -58,6 +58,7 @@ class dashboardhandler(generics.RetrieveAPIView):
 
 
 class teachingpermission(generics.RetrieveAPIView):
+    queryset = FreeLancer.objects.all()   #make a freelancer model that is : freelancer = USER+ {int score , bool teachingpremission}
     serializer_class = teachingpermissionserializer
 
 
