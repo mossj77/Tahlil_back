@@ -5,3 +5,4 @@ from .models import Project
 
 admin.site.register(Project)
 
+

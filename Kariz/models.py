@@ -20,3 +20,8 @@ class teachingform(models.Model):
     category = models.CharField(max_length=150)
     ability = models.CharField(max_length=500)
     resume = models.CharField(max_length=2000)
+    freelancername = models.ForeignKey(FreeLancer,on_delete=models.CASCADE,null=True,blank=True)
+
+
+    def __str__(self):
+        return self.freelancername
