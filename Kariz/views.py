@@ -58,4 +58,8 @@ class dashboardhandler(generics.RetrieveAPIView):
 
 
 class teachingpermission(generics.RetrieveAPIView):
+    serializer_class = teachingpermissionserializer
+
+
+
 

@@ -52,3 +52,10 @@ class projectlistserializer(ModelSerializer):
     class Meta:
         model = Project
         fields = '__all__'
+
+
+class teachingpermissionserializer(ModelSerializer):
+    class Meta:
+        model = FreeLancer
+        fields = '__all__'
+
