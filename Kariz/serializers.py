@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.serializers import CharField,HyperlinkedIdentityField,ModelSerializer,SerializerMethodField,ValidationError
 from django.contrib.auth.models import User
-from .models import  Project , Employer
+from .models import  Project , Employer , FreeLancer
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth import get_user_model
 from django.db.models import Q
@@ -16,6 +16,11 @@ class EmployerSerializer(ModelSerializer):
     class Meta:
         model = Employer
         fields = '__all__'
+
+class FreeLancerSerializer(ModelSerializer):
+    class Meta:
+        model = FreeLancer
+        fields = 'username'
 
 class projectcreationserializer(ModelSerializer):
     class Meta:

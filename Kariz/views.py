@@ -29,8 +29,15 @@ class signup(generics.CreateAPIView):
         serializer.is_valid(raise_exception=True)
         instance = self.perform_create(serializer)
         if instance:
+            # for add employer account
             self.queryset = Employer.objects
             self.serializer_class = EmployerSerializer
+            serializer2 = self.get_serializer(data=request.data)
+            serializer2.is_valid(raise_exception=True)
+            self.perform_create(serializer2)
+            # for add free lancer account
+            self.queryset = FreeLancer.objects
+            self.serializer_class = FreeLancerSerializer
             serializer2 = self.get_serializer(data=request.data)
             serializer2.is_valid(raise_exception=True)
             self.perform_create(serializer2)
