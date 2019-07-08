@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import Project,FreeLancer
+from .models import Project,teachingform
 
 # Register your models here.
 
 admin.site.register(Project)
-admin.site.register(FreeLancer)
+admin.site.register(teachingform)
 
 
