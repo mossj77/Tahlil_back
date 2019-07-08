@@ -17,4 +17,5 @@ class Project(models.Model):
         return self.name
 
 class teachingform(models.Model):
+    category = models.CharField(max_length=150)
 
