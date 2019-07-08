@@ -18,4 +18,5 @@ class Project(models.Model):
 
 class teachingform(models.Model):
     category = models.CharField(max_length=150)
+    ability = models.CharField(max_length=500)
 
