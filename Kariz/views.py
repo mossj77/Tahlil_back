@@ -57,7 +57,7 @@ class projectlhandler(generics.ListAPIView):
 
 
 class dashboardhandler(generics.RetrieveAPIView):
-    permission_classes = (IsAuthenticated,dashboardpermission)
+    permission_classes = (IsAuthenticated, dashboardpermission)
     serializer_class = userserialize
 
 
@@ -75,9 +75,9 @@ class teachingpermission(generics.RetrieveAPIView):
 
 
 class requestforproject(generics.RetrieveAPIView):
-    lookup_url_kwarg = 'projectname'
+    lookup_url_kwarg = 'name'
     serializer_class = projectlistserializer
     def get_queryset(self):
-        _projectname = self.kwargs.get(self.lookup_url_kwarg)
-        aproject = Project.objects.filter(projectname=_projectname)
+        _name = self.kwargs.get(self.lookup_url_kwarg)
+        aproject = Project.objects.filter(name=_name)
         return aproject

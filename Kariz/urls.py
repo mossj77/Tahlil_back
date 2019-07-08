@@ -19,5 +19,5 @@ urlpatterns = [
     path('dashboard/', views.dashboardhandler.as_view()),
     path('search/<name>/', views.searchhandler.as_view(), name='search'),
     path('teachinginfo/', views.teachinginfo.as_view(), name='teaching_info'),
-    path('requestforproject/', views.requestforproject.as_view(), name='request_for_project'),
+    path('requestforproject/<name>/', views.requestforproject.as_view(), name='request_for_project'),
 ]
