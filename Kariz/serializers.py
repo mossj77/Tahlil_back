@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.serializers import CharField,HyperlinkedIdentityField,ModelSerializer,SerializerMethodField,ValidationError
 from django.contrib.auth.models import User
-from .models import  Project
+from .models import  Project , teachingform
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth import get_user_model
 from django.db.models import Q
@@ -59,3 +59,8 @@ class teachingpermissionserializer(ModelSerializer):
         model = FreeLancer
         fields = '__all__'
 
+
+class teachingformserializer(ModelSerializer):
+    class Meta:
+        model = teachingform
+        fields = '__all__'
