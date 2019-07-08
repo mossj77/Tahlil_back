@@ -70,4 +70,9 @@ class teachingpermission(generics.RetrieveAPIView):
 
 
 class requestforproject(generics.RetrieveAPIView):
-
+    lookup_url_kwarg = 'projectname'
+    serializer_class = projectlistserializer
+    def get_queryset(self):
+        _projectname = self.kwargs.get(self.lookup_url_kwarg)
+        Aproject = Project.objects.filter(projectname=_projectname)
+        return Aproject
