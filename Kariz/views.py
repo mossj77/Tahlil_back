@@ -29,7 +29,6 @@ class teachinginfo(generics.CreateAPIView):
     serializer_class = teachingformserializer
 
 
-
 class projectlisthandler(generics.ListAPIView):
     lookup_url_kwarg = 'category'
     serializer_class = projectlistserializer
@@ -61,7 +60,7 @@ class dashboardhandler(generics.RetrieveAPIView):
     serializer_class = userserialize
 
 
-
+'''
 class teachingpermission(generics.RetrieveAPIView):
     lookup_url_kwarg = 'FreeLancerid'
     serializer_class = teachingpermissionserializer
@@ -69,7 +68,7 @@ class teachingpermission(generics.RetrieveAPIView):
         _FreeLancerid = self.kwargs.get(self.lookup_url_kwarg)
         aFreeLancer = FreeLancer.objects.filter(FreeLancerid=_FreeLancerid)
         return aFreeLancer
-
+'''
     #make a FreeLancer model that is : freelancer = USER+ {int score , etc}
 
 
