@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6585a6e5-f779-4d41-9fcc-73c859c6ec22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kariz/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kariz/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kariz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kariz/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kariz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kariz/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kariz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="38" column="89" lean-forward="true" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -53,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kariz/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="374">
               <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -74,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kariz/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="75" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="75" />
+            <state relative-caret-position="221">
+              <caret line="34" selection-start-line="34" selection-end-line="43" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -129,10 +127,10 @@
         <option value="H:/Tahlil_proj/new-project.html" />
         <option value="H:/Tahlil_proj/js/signup.js" />
         <option value="$PROJECT_DIR$/Kariz/urls.py" />
-        <option value="$PROJECT_DIR$/Kariz/models.py" />
         <option value="$PROJECT_DIR$/Kariz/admin.py" />
         <option value="$PROJECT_DIR$/Kariz/serializers.py" />
         <option value="$PROJECT_DIR$/Kariz/views.py" />
+        <option value="$PROJECT_DIR$/Kariz/models.py" />
       </list>
     </option>
   </component>
@@ -227,12 +225,12 @@
       <workItem from="1560840102714" duration="47911000" />
       <workItem from="1562504204953" duration="783000" />
       <workItem from="1562512010949" duration="551000" />
-      <workItem from="1562589840937" duration="12269000" />
+      <workItem from="1562589840937" duration="13230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77922000" />
+    <option name="totallyTimeSpent" value="78883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -407,6 +405,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Kariz/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="89" lean-forward="true" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Kariz/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -414,19 +422,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kariz/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kariz/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="374">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -434,12 +432,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kariz/views.py">
+    <entry file="file://$PROJECT_DIR$/Kariz/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="34" selection-start-line="34" selection-end-line="43" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

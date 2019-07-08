@@ -32,6 +32,16 @@ class FreeLancer(models.Model):
     def __str__(self):
         return self.username
 
+# class Company(models.Model):
+#     username = models.CharField(max_length=200, unique=True, name='username')
+#     address = models.CharField(max_length=1000, blank=True)
+#     description = models.CharField(max_length=1000, blank=True)
+#     skills = models.CharField(max_length=1000, blank=True)
+#     score = models.IntegerField(default=0, name='sore')
+#     CurrentProjects = models.ManyToManyField(Project, name='currentProjects', null=True, blank=True)
+#     numberOfAllProjects = models.IntegerField(default=0, name='numberOfAllProjects')
+#     numberOfDoneProjects = models.IntegerField(default=0, name='numberOfDoneProjects')
+
 
 
 
