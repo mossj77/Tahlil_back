@@ -15,8 +15,9 @@ class Project(models.Model):
     def __str__(self):
         return self.name
 
-class Employer(User):
-    Projects = models.ManyToManyField(Project,name='projects',null=True,blank=True)
+class Employer(models.Model):
+    username = models.CharField(max_length=200,name='username')
+    Projects = models.ManyToManyField(Project,name='projects', null=True, blank=True, default='Null')
     def __str__(self):
         return self.username
 

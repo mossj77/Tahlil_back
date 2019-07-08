@@ -34,7 +34,6 @@ class signup(generics.CreateAPIView):
             serializer2 = self.get_serializer(data=request.data)
             serializer2.is_valid(raise_exception=True)
             self.perform_create(serializer2)
-        else: Response(serializer.data,status=status.HTTP_304_NOT_MODIFIED)
         headers = self.get_success_headers(serializer.data)
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
 

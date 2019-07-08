@@ -15,7 +15,7 @@ class userserialize(ModelSerializer):
 class EmployerSerializer(ModelSerializer):
     class Meta:
         model = Employer
-        fields = ('username', 'password')
+        fields = '__all__'
 
 class projectcreationserializer(ModelSerializer):
     class Meta:
