@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.serializers import CharField,HyperlinkedIdentityField,ModelSerializer,SerializerMethodField,ValidationError
 from django.contrib.auth.models import User
-from .models import  Project
+from .models import  Project , Employer
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth import get_user_model
 from django.db.models import Q
@@ -12,6 +12,10 @@ class userserialize(ModelSerializer):
         model = User
         fields = ('username', 'password', 'last_name', 'first_name', 'email')
 
+class EmployerSerializer(ModelSerializer):
+    class Meta:
+        model = Employer
+        fields = ('username', 'password')
 
 class projectcreationserializer(ModelSerializer):
     class Meta:

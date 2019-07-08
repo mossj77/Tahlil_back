@@ -16,7 +16,7 @@ class Project(models.Model):
         return self.name
 
 class Employer(User):
-    Projects = models.ManyToManyField(Project,name='projects')
+    Projects = models.ManyToManyField(Project,name='projects',null=True,blank=True)
     def __str__(self):
         return self.username
 

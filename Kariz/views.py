@@ -7,9 +7,11 @@ from django.contrib.auth.models import User
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.permissions import BasePermission, AllowAny, IsAdminUser
-from Kariz.models import Project
+from Kariz.models import Project , Employer
 from .serializers import *
 from .permissions import dashboardpermission
+from rest_framework.response import Response
+from rest_framework import status
 
 
 
@@ -22,6 +24,22 @@ class createproject(generics.CreateAPIView) :
 class signup(generics.CreateAPIView):
     queryset = User.objects
     serializer_class = userserialize
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        instance = self.perform_create(serializer)
+        if instance:
+            self.queryset = Employer.objects
+            self.serializer_class = EmployerSerializer
+            serializer2 = self.get_serializer(data=request.data)
+            serializer2.is_valid(raise_exception=True)
+            self.perform_create(serializer2)
+        else: Response(serializer.data,status=status.HTTP_304_NOT_MODIFIED)
+        headers = self.get_success_headers(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
+
+    def perform_create(self, serializer):
+        return serializer.save()
 
 
 
