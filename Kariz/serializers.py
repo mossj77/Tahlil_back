@@ -25,7 +25,7 @@ class loginserializer(ModelSerializer):
         model = User
         fields = ('userName', 'password')
         extra_kwargs = {"password":
-                            {"write_only":True}
+                            {"write_only": True}
                         }
     def validate(self, data):
         user_obj = None
@@ -38,7 +38,7 @@ class loginserializer(ModelSerializer):
         ).distinct()
         if user.exists() and user.count() == 1:
             user_obj = user.first()
-        else:raise ValidationError("This username is not valid.")
+        else: raise ValidationError("This username is not valid.")
 
         if user_obj:
             if not user_obj.check_password(password):
