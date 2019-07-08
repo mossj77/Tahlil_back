@@ -62,8 +62,8 @@ class teachingpermission(generics.RetrieveAPIView):
     serializer_class = teachingpermissionserializer
     def get_queryset(self):
         _FreeLancerid = self.kwargs.get(self.lookup_url_kwarg)
-        AFreeLancer = FreeLancer.objects.filter(FreeLancerid=_FreeLancerid)
-        return AFreeLancer
+        aFreeLancer = FreeLancer.objects.filter(FreeLancerid=_FreeLancerid)
+        return aFreeLancer
 
     #make a freelancer model that is : freelancer = USER+ {int score , etc}
 
@@ -74,5 +74,5 @@ class requestforproject(generics.RetrieveAPIView):
     serializer_class = projectlistserializer
     def get_queryset(self):
         _projectname = self.kwargs.get(self.lookup_url_kwarg)
-        Aproject = Project.objects.filter(projectname=_projectname)
-        return Aproject
+        aproject = Project.objects.filter(projectname=_projectname)
+        return aproject
