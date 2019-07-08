@@ -20,7 +20,7 @@ class EmployerSerializer(ModelSerializer):
 class FreeLancerSerializer(ModelSerializer):
     class Meta:
         model = FreeLancer
-        fields = 'username'
+        fields = '__all__'
 
 class projectcreationserializer(ModelSerializer):
     class Meta:
