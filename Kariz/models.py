@@ -29,6 +29,7 @@ class FreeLancer(models.Model):
     numberOfAllProjects = models.IntegerField(default=0, name='numberOfAllProjects')
     numberOfDoneProjects = models.IntegerField(default=0, name='numberOfDoneProjects')
     score = models.IntegerField(default=0, name='sore')
+    teachingpermission = models.BooleanField(default=False, name='teachingpermission')
     def __str__(self):
         return self.username
 
