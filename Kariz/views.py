@@ -17,6 +17,7 @@ class createproject(generics.CreateAPIView):
 
 
 class signup(generics.CreateAPIView):
+    permission_classes = (dashboardpermission,)
     queryset = User.objects
     serializer_class = userserialize
     def create(self, request, *args, **kwargs):
@@ -38,8 +39,20 @@ class signup(generics.CreateAPIView):
 
 
 class teachinginfo(generics.CreateAPIView):
+    permission_classes = (IsAuthenticated,)
     queryset = teachingform.objects
     serializer_class = teachingformserializer
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        headers = self.get_success_headers(serializer.data)
+        username = request.user.username
+        freelancer = FreeLancer.objects.get(username=username)
+        freelancer.teachingpermission = True
+        freelancer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
+
 
 
 

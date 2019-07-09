@@ -53,9 +53,6 @@ class teachingform(models.Model):
     ability = models.CharField(max_length=500, blank=True)
     resume = models.CharField(max_length=2000, blank=True)
     username = models.CharField(max_length=150, unique=True)
-    #freelancername = models.ForeignKey(FreeLancer,on_delete=models.CASCADE,null=True,blank=True)
-
-
     def __str__(self):
         return self.username
 
