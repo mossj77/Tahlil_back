@@ -1,7 +1,8 @@
 from rest_framework import serializers
 from rest_framework.serializers import CharField,HyperlinkedIdentityField,ModelSerializer,SerializerMethodField,ValidationError
 from django.contrib.auth.models import User
-from .models import  Project , Employer , FreeLancer
+from .models import  Employer , FreeLancer
+from .models import  Project , teachingform
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.auth import get_user_model
 from django.db.models import Q
@@ -34,7 +35,7 @@ class loginserializer(ModelSerializer):
         model = User
         fields = ('userName', 'password')
         extra_kwargs = {"password":
-                            {"write_only":True}
+                            {"write_only": True}
                         }
     def validate(self, data):
         user_obj = None
@@ -47,7 +48,7 @@ class loginserializer(ModelSerializer):
         ).distinct()
         if user.exists() and user.count() == 1:
             user_obj = user.first()
-        else:raise ValidationError("This username is not valid.")
+        else: raise ValidationError("This username is not valid.")
 
         if user_obj:
             if not user_obj.check_password(password):
@@ -60,4 +61,16 @@ class loginserializer(ModelSerializer):
 class projectlistserializer(ModelSerializer):
     class Meta:
         model = Project
+        fields = '__all__'
+
+
+class teachingpermissionserializer(ModelSerializer):
+    class Meta:
+        model = FreeLancer
+        fields = '__all__'
+
+
+class teachingformserializer(ModelSerializer):
+    class Meta:
+        model = teachingform
         fields = '__all__'
