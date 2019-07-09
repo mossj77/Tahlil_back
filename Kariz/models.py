@@ -17,6 +17,7 @@ class Project(models.Model):
 
 
 
+
 class Employer(models.Model):
     username = models.CharField(max_length=200,name='username', unique=True)
     Projects = models.ManyToManyField(Project, name='projects', null=True, blank=True)
@@ -45,4 +46,14 @@ class FreeLancer(models.Model):
 
 
 
+class teachingform(models.Model):
+    category = models.CharField(max_length=150, blank=True)
+    ability = models.CharField(max_length=500, blank=True)
+    resume = models.CharField(max_length=2000, blank=True)
+    username = models.CharField(max_length=150, unique=True)
+    #freelancername = models.ForeignKey(FreeLancer,on_delete=models.CASCADE,null=True,blank=True)
+
+
+    def __str__(self):
+        return self.username
 
