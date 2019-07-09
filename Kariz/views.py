@@ -1,9 +1,3 @@
-from django.shortcuts import render
-#from .serializers import userloginserialize
-from django.http import HttpResponse
-from django.shortcuts import render_to_response
-from django.template import loader
-from django.contrib.auth.models import User
 from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.permissions import BasePermission, AllowAny, IsAdminUser
@@ -13,7 +7,7 @@ from .permissions import dashboardpermission
 
 
 
-class createproject(generics.CreateAPIView) :
+class createproject(generics.CreateAPIView):
     queryset = Project.objects
     serializer_class = projectcreationserializer
     #permission_classes = (AllowAny)
