@@ -74,7 +74,22 @@ class dashboardhandler(generics.RetrieveAPIView):
     serializer_class = userserialize
     queryset = User
     lookup_field = 'username'
-
+    def retrieve(self, request, *args, **kwargs):
+        #self.lookup_field = request.user.username
+        instance = self.get_object()
+        userserializer = self.get_serializer(instance)
+        self.serializer_class = FreeLancerSerializer
+        self.queryset = FreeLancer
+        instance = self.get_object()
+        freelancerserializer = self.get_serializer(instance)
+        self.serializer_class = EmployerSerializer
+        self.queryset = Employer
+        instance = self.get_object()
+        employerserializer = self.get_serializer(instance)
+        data = (userserializer.data,
+                freelancerserializer.data,
+                employerserializer.data)
+        return Response(data)
 
 
 '''
