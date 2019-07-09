@@ -2,6 +2,7 @@ from rest_framework import generics
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.permissions import BasePermission, AllowAny, IsAdminUser
 from Kariz.models import Project , Employer
+from django.contrib.auth.models import User
 from .serializers import *
 from .permissions import dashboardpermission
 from rest_framework.response import Response
@@ -69,8 +70,15 @@ class projectlhandler(generics.ListAPIView):
 
 
 class dashboardhandler(generics.RetrieveAPIView):
-    permission_classes = (IsAuthenticated, dashboardpermission)
-    serializer_class = userserialize
+    #permission_classes = (IsAuthenticated,)
+    #serializer_class = userserialize
+
+    def retrieve(self, request, *args, **kwargs):
+        freelancer = FreeLancer.objects.create(username=request.user.username)
+        freelancer.save()
+        instance = self.get_object()
+        serializer = self.get_serializer(instance)
+        return Response(serializer.data)
 
 
 '''
