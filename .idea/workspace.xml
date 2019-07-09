@@ -28,21 +28,49 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+=======
+<<<<<<< HEAD
+    <leaf />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Kariz/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#1#36#0" expanded="true" />
+              </folding>
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Term 6/Tahlil/Project KARIZ/4/Tahlil_proj-Front/panel.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7089">
               <caret line="417" column="4" selection-start-line="417" selection-start-column="4" selection-end-line="417" selection-end-column="4" />
+>>>>>>> ho3in
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/Kariz/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/../../Term 6/Tahlil/Project KARIZ/4/Tahlil_proj-Front/signup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1173">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
+>>>>>>> ho3in
             </state>
           </provider>
         </entry>
@@ -68,8 +96,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kariz/models.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="476">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="-316">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+=======
+            <state relative-caret-position="409">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+>>>>>>> 976243916a15fded285efed77c636506f4675251
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -84,6 +123,7 @@
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+>>>>>>> ho3in
               </folding>
             </state>
           </provider>
@@ -92,8 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kariz/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="289">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+=======
             <state relative-caret-position="334">
+<<<<<<< HEAD
               <caret line="20" selection-start-line="20" selection-end-line="20" />
+=======
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="22" />
+>>>>>>> ho3in
+>>>>>>> 976243916a15fded285efed77c636506f4675251
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -101,11 +150,29 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+>>>>>>> mossj
+        <entry file="file://$PROJECT_DIR$/Kariz/models.py">
+=======
+      <file pinned="false" current-in-tab="true">
+>>>>>>> 976243916a15fded285efed77c636506f4675251
         <entry file="file://$PROJECT_DIR$/Kariz/serializers.py">
+>>>>>>> ho3in
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+=======
+            <state relative-caret-position="527">
+              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+>>>>>>> 976243916a15fded285efed77c636506f4675251
             </state>
           </provider>
         </entry>
@@ -120,6 +187,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> 5228bcf7667e84157c6516fb27bc4aa02da58b40
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,6 +216,10 @@
       <list>
         <option value="$PROJECT_DIR$/Project/urls.py" />
         <option value="H:/Tahlil_proj/projectlist.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Project/settings.py" />
+=======
+>>>>>>> ho3in
         <option value="H:/Tahlil_proj/signup.html" />
         <option value="$PROJECT_DIR$/Kariz/permissions.py" />
         <option value="H:/Tahlil_proj/js/projectDescription.js" />
@@ -160,20 +232,48 @@
         <option value="H:/Tahlil_proj/projectDescription.html" />
         <option value="H:/Tahlil_proj/new-project.html" />
         <option value="H:/Tahlil_proj/js/signup.js" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/Project/settings.py" />
         <option value="$PROJECT_DIR$/Kariz/admin.py" />
         <option value="$PROJECT_DIR$/Kariz/serializers.py" />
+>>>>>>> ho3in
         <option value="$PROJECT_DIR$/Kariz/urls.py" />
+        <option value="$PROJECT_DIR$/Kariz/admin.py" />
+        <option value="$PROJECT_DIR$/Kariz/serializers.py" />
         <option value="$PROJECT_DIR$/Kariz/models.py" />
         <option value="$PROJECT_DIR$/Kariz/views.py" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="352" />
     <option name="y" value="442" />
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
+    <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1230" />
+=======
+>>>>>>> mossj
+    <option name="x" value="460" />
+    <option name="y" value="15" />
+    <option name="width" value="1195" />
+    <option name="height" value="1050" />
+>>>>>>> 3bf6fa77f6542a5653840f1ff64d6c6b8d5b72c1
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+>>>>>>> 976243916a15fded285efed77c636506f4675251
+    <option name="width" value="981" />
+    <option name="height" value="1230" />
+>>>>>>> ho3in
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,16 +288,22 @@
               <item name="Tahlil_back" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tahlil_back" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
             <path>
               <item name="Tahlil_back" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tahlil_back" type="462c0819:PsiDirectoryNode" />
               <item name="Kariz" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
             <path>
               <item name="Tahlil_back" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tahlil_back" type="462c0819:PsiDirectoryNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
+>>>>>>> ho3in
+>>>>>>> 5228bcf7667e84157c6516fb27bc4aa02da58b40
           </expand>
           <select />
         </subPane>
@@ -210,7 +316,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> ho3in
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -264,6 +374,12 @@
       <workItem from="1560782874973" duration="15837000" />
       <workItem from="1560840102714" duration="47911000" />
       <workItem from="1562504204953" duration="783000" />
+<<<<<<< HEAD
+      <workItem from="1562512010949" duration="551000" />
+      <workItem from="1562589840937" duration="13433000" />
+<<<<<<< HEAD
+      <workItem from="1562653622162" duration="1068000" />
+=======
       <workItem from="1562507561513" duration="4010000" />
       <workItem from="1562584961810" duration="2808000" />
       <workItem from="1562587816532" duration="2018000" />
@@ -388,6 +504,9 @@
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
       <updated>1562607499937</updated>
+=======
+      <workItem from="1562653622162" duration="1315000" />
+>>>>>>> dev
     </task>
     <task id="LOCAL-00018" summary="class teaching form6">
       <created>1562607592218</created>
@@ -430,6 +549,7 @@
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
       <updated>1562608254674</updated>
+>>>>>>> ho3in
     </task>
     <task id="LOCAL-00024" summary="teahing info">
       <created>1562609945177</created>
@@ -470,19 +590,59 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="83027000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="80406000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="80156000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="80154000" />
+=======
+    <option name="totallyTimeSpent" value="80401000" />
+>>>>>>> dev
+>>>>>>> mossj
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483221" />
+=======
+    <option name="totallyTimeSpent" value="82453000" />
+>>>>>>> 976243916a15fded285efed77c636506f4675251
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="828" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12874494" />
+>>>>>>> ho3in
+>>>>>>> 5228bcf7667e84157c6516fb27bc4aa02da58b40
+>>>>>>> mossj
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+=======
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> ho3in
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -502,6 +662,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Kariz/admin.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+=======
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teachingpermission class serializer1" />
     <MESSAGE value="teachingpermission class serializer2" />
@@ -529,6 +700,7 @@
     <MESSAGE value="username att in teaching form class" />
     <MESSAGE value="username att in teaching form class1" />
     <option name="LAST_COMMIT_MESSAGE" value="username att in teaching form class1" />
+>>>>>>> ho3in
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../TTP/t/serializers.py" />
@@ -553,8 +725,28 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../../Twebsite/Twebsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Twebsite2/Twebsite2/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/../../Twebsite/Twebsite/urls.py" />
     <entry file="file://$PROJECT_DIR$/../../Twebsite2/Twebsite2/urls.py" />
+>>>>>>> ho3in
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.068/urls.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.679/urls.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.364/urls.py" />
@@ -608,6 +800,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://H:/Tahlil_proj/js/projectDescription.js" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/rest_framework/permissions.py">
+=======
     <entry file="file://$PROJECT_DIR$/Kariz/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -615,7 +811,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Kariz/urls.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Kariz/models.py">
+>>>>>>> ho3in
+>>>>>>> 976243916a15fded285efed77c636506f4675251
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
@@ -632,10 +833,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://C:/Python37/Lib/site-packages/rest_framework/generics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../../projectDescription.html" />
+    <entry file="file://H:/Tahlil_proj/panel.html" />
+    <entry file="file://H:/Tahlil_proj/js/panel.js" />
+    <entry file="file://H:/Tahlil_proj/js/index.js" />
+    <entry file="file://H:/Tahlil_proj/projectDescription.html" />
+    <entry file="file://H:/Tahlil_proj/index.html" />
+    <entry file="file://H:/Tahlil_proj/js/signup.js" />
+    <entry file="file://H:/Tahlil_proj/projectlist.html" />
+    <entry file="file://H:/Tahlil_proj/js/projectlist.js" />
+    <entry file="file://H:/Tahlil_proj/signup.html" />
+    <entry file="file://H:/Tahlil_proj/new-project.html" />
+    <entry file="file://H:/Tahlil_proj/js/new-project.js" />
+    <entry file="file://$PROJECT_DIR$/../Tahlil_proj/Project/venv/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="520" column="8" selection-start-line="520" selection-start-column="8" selection-end-line="520" selection-end-column="8" />
+=======
+    <entry file="file://$PROJECT_DIR$/Kariz/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+>>>>>>> ho3in
+>>>>>>> 976243916a15fded285efed77c636506f4675251
         </state>
       </provider>
     </entry>
@@ -646,29 +876,98 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Kariz/admin.py">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Kariz/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Kariz/views.py">
+>>>>>>> 976243916a15fded285efed77c636506f4675251
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+<<<<<<< HEAD
+            <element signature="e#0#32#0" expanded="true" />
+=======
+            <element signature="e#1#36#0" expanded="true" />
+>>>>>>> ho3in
+>>>>>>> 976243916a15fded285efed77c636506f4675251
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../Tahlil_proj/Project/venv/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#178#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kariz/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project/settings.py">
+    <entry file="file://$PROJECT_DIR$/Kariz/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="-316">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://C:/Python37/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+>>>>>>> ho3in
+>>>>>>> 976243916a15fded285efed77c636506f4675251
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Kariz/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="476">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
+=======
+        <state relative-caret-position="527">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+>>>>>>> 976243916a15fded285efed77c636506f4675251
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kariz/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#1#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
