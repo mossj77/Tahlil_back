@@ -35,17 +35,17 @@ class FreeLancer(models.Model):
     def __str__(self):
         return self.username
 
-# class Company(models.Model):
-#     username = models.CharField(max_length=200, unique=True, name='username')
-#     address = models.CharField(max_length=1000, blank=True)
-#     description = models.CharField(max_length=1000, blank=True)
-#     skill = models.CharField(max_length=1000, blank=True)
-#     phone = models.IntegerField(default=0, name='numberOfAllProjects')
-#     score = models.IntegerField(default=0, name='sore')
-#     CurrentProjects = models.ManyToManyField(Project, name='currentProjects', null=True, blank=True)
-#     numberOfAllProjects = models.IntegerField(default=0, name='numberOfAllProjects')
-#     numberOfDoneProjects = models.IntegerField(default=0, name='numberOfDoneProjects')
-
+class Company(models.Model):
+    username = models.CharField(max_length=200, unique=True, name='username')
+    address = models.CharField(max_length=1000, blank=True)
+    description = models.CharField(max_length=1000, blank=True)
+    skill = models.CharField(max_length=1000, blank=True)
+    phone = models.IntegerField(default=0, name='numberOfAllProjects')
+    score = models.IntegerField(default=0, name='sore')
+    numberOfDoneProjects = models.IntegerField(default=0, name='numberOfDoneProjects')
+    CurrentProjects = models.ManyToManyField(Project, name='currentProjects', null=True, blank=True)
+    def __str__(self):
+        return self.username
 
 
 class teachingform(models.Model):

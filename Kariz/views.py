@@ -17,7 +17,6 @@ class createproject(generics.CreateAPIView):
 
 
 class signup(generics.CreateAPIView):
-    permission_classes = (dashboardpermission,)
     queryset = User.objects
     serializer_class = userserialize
     def create(self, request, *args, **kwargs):
